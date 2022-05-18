@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="overflow-x: hidden; max-width: 100%;">
+<html lang="en">
     <head>
         <!-- little easter egg -->
 <template>
@@ -32,6 +32,14 @@
         <!-- for render and zooming -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
+        <style> /* Hide horizontal scroll bar bc idk why it's there in the first place */
+            html, body {
+                overflow-x: hidden;
+            }
+            body {
+                position: relative
+            }
+        </style>
     </head>
     <body class="text-white" style="background-color: black;">
         <!-- Jumbotron -->
